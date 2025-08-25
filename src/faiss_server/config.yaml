@@ -1,0 +1,2 @@
+server_url: "http://localhost:5000"  # change to your server URL
+lmdb_path: "./database/metadata/PubChem_merged_id.lmdb"

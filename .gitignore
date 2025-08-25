@@ -1,0 +1,13 @@
+# Ignore result files
+result/*
+
+# Ignore model files
+model/*/
+
+# Ignore database files
+database/index/*.index
+database/metadata/*.lmdb
+
+# Ignore Python cache files
+__pycache__
+*.pyc

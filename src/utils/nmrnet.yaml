@@ -1,0 +1,2 @@
+base_model: "./model/nmrnet"
+n_splits: 5

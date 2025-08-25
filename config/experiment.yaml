@@ -1,0 +1,25 @@
+# algorithm
+max_iter: 2
+num_search: 1000
+num_pool: 1000
+num_filter_pair: 200000
+num_filter_mol: 1000
+num_mutate_mol: 100
+topk: 1000
+use_stereo: False
+optional_halogens: ['F', 'Cl', 'Br', 'I']
+max_cycle_length: 6
+invalid_patterns: ['[O][O]', '[R]=[R]=[R]', '[r3,r4]=[r3,r4]', '[O][F,Cl,Br,I]']
+sigma_h: 1
+sigma_c: 10
+use_H_split: False
+split_coef: 0.8
+include_active_hs: 'yes'
+# exp
+data_path: "./data/experiment/test.lmdb"
+nmr_type: 'HC'
+use_elements: True
+use_candidates: False
+# debug
+plot_result: 10
+enable_logger: True
