@@ -1,27 +1,31 @@
 # NMR-Solver
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2508.XXXXX)
-[![GitHub](https://img.shields.io/badge/GitHub-NMR--Solver-181717?logo=github)](https://github.com/YongqiJin/NMR-Solver)
-[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-SimNMR--PubChem-ffc107)](https://huggingface.co/datasets/yqj01/SimNMR-PubChem)
-[![Zenodo](https://img.shields.io/badge/Zenodo-NMR--Solver-0ea5e9)](https://doi.org/10.5281/zenodo.16952024)
+[![GitHub](https://img.shields.io/badge/GitHub-NMR--Solver-6e7681?logo=github)](https://github.com/YongqiJin/NMR-Solver)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.XXXXX-b31b1b?logo=arxiv)](https://arxiv.org/abs/2508.XXXXX)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-SimNMR--PubChem-ffc107?logo=huggingface)](https://huggingface.co/datasets/yqj01/SimNMR-PubChem)
+[![Zenodo](https://img.shields.io/badge/Zenodo-NMR--Solver-28a745?logo=zenodo)](https://doi.org/10.5281/zenodo.16952024)
 [![Docker](https://img.shields.io/badge/Docker-nmr__solver-2496ed?logo=docker)](https://hub.docker.com/r/yqjin/nmr_solver)
-
+[![Borhium](https://img.shields.io/badge/Borhium%20App-NMR--Toolbox-7B1FA2?logo=https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/bohrium.png)](https://www.bohrium.com/apps/nmr-toolbox)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official implementation of **NMR-Solver: Automated Molecular Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization**
 
 ## Overview
 
-The project corporates large-scale spectral matching with physics-guided fragment optimization, providing a powerful framework for automated molecular structure elucidation from 1H and 13C NMR spectra.
+This project integrates large-scale spectral matching with physics-guided fragment optimization, providing a powerful framework for automated molecular structure elucidation from <sup>1</sup>H and <sup>13</sup>C NMR spectra.
+
+![framework](assets/framework.png)
+![FB-MO](assets/FB-MO.png)
 
 ## Setup
 
 ### SimNMR-PubChem Database
 
-The processed dataset and database index of the SimNMR-PubChem Database are available on [Hugging Face](https://huggingface.co/datasets/yqj01/SimNMR-PubChem). Put them in the [database](database) directory.
+The processed dataset (373 GB) and database index (128 GB) for the SimNMR-PubChem Database are available on [Hugging Face](https://huggingface.co/datasets/yqj01/SimNMR-PubChem). Please place them in the [database](database) directory.
 
 ### Models & Datasets
 
-The pre-trained model weights and evaluation datasets can be downloaded on [Zenodo](https://doi.org/10.5281/zenodo.16952024). Put them in the [model](model) and [data](data) directory.
+Pre-trained model weights and evaluation datasets can be downloaded on [Zenodo](https://doi.org/10.5281/zenodo.16952024). Please place them in the [model](model) and [data](data) directories respectively.
 
 ### Docker
 
@@ -38,7 +42,7 @@ docker run -it --rm yqjin/nmr_solver:0.0.1
 docker run -it --rm -v /path/to/your/data:/workspace/data yqjin/nmr_solver:0.0.1
 ```
 
-This Docker image includes all necessary dependencies and pre-configured environment for running NMR-Solver.
+This Docker image includes all necessary dependencies and a pre-configured environment for running NMR-Solver.
 
 ## Usage
 
@@ -54,9 +58,9 @@ Then update the server configuration in [config.yaml](src/faiss_server/config.ya
 
 ### Run Demo
 
-Change the configuration file in `config/demo.yaml` as needed.
+Modify the configuration file `config/demo.yaml` as needed.
 
-For running the algorithm, use the following command:
+To run the algorithm, use the following command:
 
 ```bash
 sh scripts/run.sh demo
@@ -70,23 +74,23 @@ sh scripts/eval.sh demo
 
 ## Contact Us
 
-1. **GitHub Issues**
+1. **GitHub Issues**  
    For bug reports, feature requests, or technical questions, please open an issue on our [GitHub repository](https://github.com/YongqiJin/NMR-Solver).
 
-2. **WeChat**
+2. **WeChat**  
    Join our WeChat user community to discuss NMR-Solver with other users and developers. Scan the QR code below to join our group:
-   
-   ![WeChat Group QR Code](docs/wechat_group_qr.png)
 
-3. **E-mail**
+   ![WeChat Group QR Code](assets/wechat_group_qr.png)
+
+3. **Email**  
    For collaboration inquiries, commercial licensing, or in-depth communication with our development team, please contact us at: [jinyongqi@dp.tech](mailto:jinyongqi@dp.tech)
 
 ## Citation
 
-Please kindly cite our papers if you use the codebase.
+Please kindly cite our paper if you use this codebase:
 
 ```bibtex
-@article{jin2023nmrsolver,
+@article{jin2025nmrsolver,
   title={NMR-Solver: Automated Molecular Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization},
   author={Yongqi Jin and Junjie Wang and Fanjie Xu and Xiaohong Ji and Zhifeng Gao and Linfeng Zhang and Guolin Ke and Rong Zhu and Weinan E},
   journal={arXiv preprint arXiv:2508.XXXXX},
@@ -96,4 +100,4 @@ Please kindly cite our papers if you use the codebase.
 
 ## License
 
-This project is licensed under the terms of MIT license. See [LICENSE](LICENSE) for additional details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for additional details.
