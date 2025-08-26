@@ -47,9 +47,9 @@ def cut_non_ring(mol: Chem.Mol) -> List[Tuple[Chem.Mol, Tuple]]:
         elif fragments[0].GetNumAtoms() == 2 and bond_type == '-' and atom_symbol[0] in ['H', 'F', 'Cl', 'Br', 'I']:
             cut_type = ((atom_symbol[1], 'X'), (bond_type))
             fragments_mol += [(fragments[1], cut_type)]
-        else:
-            print("Warning: Unexpected encountered.")
-            print(Chem.MolToSmiles(fragments[0]), Chem.MolToSmiles(fragments[1]))
+        # else:
+        #     print("Warning: Unexpected encountered.")
+        #     print(Chem.MolToSmiles(fragments[0]), Chem.MolToSmiles(fragments[1]))
 
     return fragments_mol
 
