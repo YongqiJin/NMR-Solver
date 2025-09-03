@@ -1,21 +1,31 @@
-# NMR-Solver
+# NMR-Solver: Automated Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization
 
-[![GitHub](https://img.shields.io/badge/GitHub-NMR--Solver-6e7681?logo=github)](https://github.com/YongqiJin/NMR-Solver)
+<!-- [![GitHub](https://img.shields.io/badge/GitHub-NMR--Solver-6e7681?logo=github)](https://github.com/YongqiJin/NMR-Solver) -->
 [![arXiv](https://img.shields.io/badge/arXiv-2508.XXXXX-b31b1b?logo=arxiv)](https://arxiv.org/abs/2508.XXXXX)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-SimNMR--PubChem-ffc107?logo=huggingface)](https://huggingface.co/datasets/yqj01/SimNMR-PubChem)
 [![Zenodo](https://img.shields.io/badge/Zenodo-NMR--Solver-28a745?logo=zenodo)](https://doi.org/10.5281/zenodo.16952024)
-[![Docker](https://img.shields.io/badge/Docker-nmr__solver-2496ed?logo=docker)](https://hub.docker.com/r/yqjin/nmr_solver)
-[![Borhium](https://img.shields.io/badge/Borhium%20App-NMR--Toolbox-7B1FA2?logo=https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/bohrium.png)](https://www.bohrium.com/apps/nmr-toolbox)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Borhium](https://img.shields.io/badge/Borhium%20App-NMR--Toolbox-2496ed?logo=https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/bohrium.svg)](https://www.bohrium.com/apps/nmr-toolbox)
 
-Official implementation of **NMR-Solver: Automated Molecular Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization**
+Official implementation of **NMR-Solver**.
 
 ## Overview
 
 This project integrates large-scale spectral matching with physics-guided fragment optimization, providing a powerful framework for automated molecular structure elucidation from <sup>1</sup>H and <sup>13</sup>C NMR spectra.
 
-![framework](assets/framework.png)
-![FB-MO](assets/FB-MO.png)
+<img src="assets/framework.png" style="width: 100%;" alt="framework">
+<img src="assets/FB-MO.png" style="width: 100%;" alt="FB-MO">
+
+## Online App
+
+For the most seamless experience, try our web-based application directly without any installation:
+
+🚀 **[Try NMR-Toolbox on Bohrium](https://www.bohrium.com/apps/nmr-toolbox)**
+
+Hosted on the Bohrium platform, NMR-Toolbox offers an intuitive interface for:
+- **NMR Database Search**
+- **Structure Elucidation from NMR**
+- **Chemical Shift Prediction & Spectral Matching**
+
 
 ## Setup
 
@@ -82,7 +92,7 @@ sh scripts/eval.sh demo
 
    ![WeChat Group QR Code](assets/wechat_group_qr.png)
 
-3. **Email**  
+3. **E-mail**  
    For collaboration inquiries, commercial licensing, or in-depth communication with our development team, please contact us at: [jinyongqi@dp.tech](mailto:jinyongqi@dp.tech)
 
 ## Citation
@@ -91,10 +101,10 @@ Please kindly cite our paper if you use this codebase:
 
 ```bibtex
 @article{jin2025nmrsolver,
-  title={NMR-Solver: Automated Molecular Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization},
-  author={Yongqi Jin and Junjie Wang and Fanjie Xu and Xiaohong Ji and Zhifeng Gao and Linfeng Zhang and Guolin Ke and Rong Zhu and Weinan E},
-  journal={arXiv preprint arXiv:2508.XXXXX},
-  year={2025}
+  title={NMR-Solver: Automated Structure Elucidation via Large-Scale Spectral Matching and Physics-Guided Fragment Optimization},
+  author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and E, Weinan},
+  year={2025},
+  journal={arXiv preprint arXiv:2509.00640}
 }
 ```
 
