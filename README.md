@@ -1,12 +1,15 @@
-# NMR-Solver: Automated Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization
+# Official implementation of **NMR-Solver**
 
 <!-- [![GitHub](https://img.shields.io/badge/GitHub-NMR--Solver-6e7681?logo=github)](https://github.com/YongqiJin/NMR-Solver) -->
-[![arXiv](https://img.shields.io/badge/arXiv-2508.XXXXX-b31b1b?logo=arxiv)](https://arxiv.org/abs/2508.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.00640-b31b1b?logo=arxiv)](https://arxiv.org/abs/2509.00640)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-SimNMR--PubChem-ffc107?logo=huggingface)](https://huggingface.co/datasets/yqj01/SimNMR-PubChem)
 [![Zenodo](https://img.shields.io/badge/Zenodo-NMR--Solver-28a745?logo=zenodo)](https://doi.org/10.5281/zenodo.16952024)
-[![Borhium](https://img.shields.io/badge/Borhium%20App-NMR--Toolbox-2496ed?logo=https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/bohrium.svg)](https://www.bohrium.com/apps/nmr-toolbox)
+<a href="https://bohrium.com">
+  <img src="https://img.shields.io/badge/Borhium%20App-NMR%20Toolbox-2496ed?logo=zenodo" alt="Borhium" />
+  <img src="https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/bohrium.svg" width="14" height="14" style="vertical-align:2.9px;margin-left:-180px;opacity:0.8;" />
+</a>
 
-Official implementation of **NMR-Solver**.
+# NMR-Solver: Automated Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization
 
 ## Overview
 
@@ -90,7 +93,9 @@ sh scripts/eval.sh demo
 2. **WeChat**  
    Join our WeChat user community to discuss NMR-Solver with other users and developers. Scan the QR code below to join our group:
 
-   ![WeChat Group QR Code](assets/wechat_group_qr.png)
+<div align="center">
+<img src="assets/wechat_group_qr.png" style="width: 50%;" alt="WeChat Group QR Code">
+</div>
 
 3. **E-mail**  
    For collaboration inquiries, commercial licensing, or in-depth communication with our development team, please contact us at: [jinyongqi@dp.tech](mailto:jinyongqi@dp.tech)
