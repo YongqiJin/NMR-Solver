@@ -4,10 +4,14 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2509.00640-b31b1b?logo=arxiv)](https://arxiv.org/abs/2509.00640)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-SimNMR--PubChem-ffc107?logo=huggingface)](https://huggingface.co/datasets/yqj01/SimNMR-PubChem)
 [![Zenodo](https://img.shields.io/badge/Zenodo-NMR--Solver-28a745?logo=zenodo)](https://doi.org/10.5281/zenodo.16952024)
-<a href="https://bohrium.com">
-  <img src="https://img.shields.io/badge/Borhium%20App-NMR%20Toolbox-2496ed?logo=zenodo" alt="Borhium" />
-  <img src="https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/bohrium.svg" width="14" height="14" style="vertical-align:2.9px;margin-left:-180px;opacity:0.8;" />
+<a href="https://bohrium.com" style="position:relative; display:inline-block;">
+  <img src="https://img.shields.io/badge/Borhium%20App-NMR%20Toolbox-2496ed?logo=zenodo"
+       alt="Borhium" />
+  <img src="https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/bohrium.svg"
+       width="14" height="14"
+       style="position:absolute; left:5px; top:11%; opacity:0.8;" />
 </a>
+
 
 # NMR-Solver: Automated Structure Elucidation via Large-Scale Spectra Matching and Physics-Guided Fragment Optimization
 
