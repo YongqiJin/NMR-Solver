@@ -10,6 +10,10 @@ NMR-Toolbox：一体化核磁共振谱分析工具，支持数据库检索、NMR
 
 ### 交流反馈
 
+遇到 App 功能无法正常使用的问题，可能是由于浏览器禁止了第三方 Cookie。由于 Bohrium 架构原因，需在浏览器设置中允许第三方 Cookie，方可正常使用全部功能。
+
+(If you encounter issues such as failing to use certain app features, it may be because your browser has blocked third-party cookies. Due to the Bohrium architecture, you need to enable third-party cookies in your browser settings to use all features properly.)
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/YongqiJin/NMR-Solver/main/assets/wechat_group_qr.png" style="width: 50%;" alt="WeChat Group QR Code">
 </div>
@@ -46,10 +50,10 @@ NMR-Toolbox：一体化核磁共振谱分析工具，支持数据库检索、NMR
 
 ## 引用格式
 ```bibtex
-@article{jin2025nmrsolver,
+@article{jin2025nmr,
   title={NMR-Solver: Automated Structure Elucidation via Large-Scale Spectral Matching and Physics-Guided Fragment Optimization},
-  author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and E, Weinan},
-  year={2025},
-  journal={arXiv preprint arXiv:2509.00640}
+  author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and others},
+  journal={arXiv preprint arXiv:2509.00640},
+  year={2025}
 }
 ```

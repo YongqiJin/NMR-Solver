@@ -107,11 +107,11 @@ sh scripts/eval.sh demo
 Please kindly cite our paper if you use this codebase:
 
 ```bibtex
-@article{jin2025nmrsolver,
+@article{jin2025nmr,
   title={NMR-Solver: Automated Structure Elucidation via Large-Scale Spectral Matching and Physics-Guided Fragment Optimization},
-  author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and E, Weinan},
-  year={2025},
-  journal={arXiv preprint arXiv:2509.00640}
+  author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and others},
+  journal={arXiv preprint arXiv:2509.00640},
+  year={2025}
 }
 ```
 
