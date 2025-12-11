@@ -92,14 +92,7 @@ sh scripts/eval.sh demo
 1. **GitHub Issues**  
    For bug reports, feature requests, or technical questions, please open an issue on our [GitHub repository](https://github.com/YongqiJin/NMR-Solver).
 
-2. **WeChat**  
-   Join our WeChat user community to discuss NMR-Solver with other users and developers. Scan the QR code below to join our group:
-
-<div align="center">
-<img src="assets/wechat_group_qr.png" style="width: 50%;" alt="WeChat Group QR Code">
-</div>
-
-3. **E-mail**  
+2. **E-mail**  
    For collaboration inquiries, commercial licensing, or in-depth communication with our development team, please contact us at: [jinyongqi@dp.tech](mailto:jinyongqi@dp.tech)
 
 ## Citation
@@ -109,7 +102,7 @@ Please kindly cite our paper if you use this codebase:
 ```bibtex
 @article{jin2025nmr,
   title={NMR-Solver: Automated Structure Elucidation via Large-Scale Spectral Matching and Physics-Guided Fragment Optimization},
-  author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and others},
+  author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and E, weinan},
   journal={arXiv preprint arXiv:2509.00640},
   year={2025}
 }
