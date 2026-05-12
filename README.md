@@ -1,6 +1,7 @@
 # NMR-Solver: Automated Structure Elucidation via Large-Scale Spectral Matching and Physics-Guided Fragment Optimization
 
 [![arXiv](https://img.shields.io/badge/arXiv-2509.00640-b31b1b?logo=arxiv)](https://arxiv.org/abs/2509.00640)
+[![Nature Communications](https://img.shields.io/badge/Nature%20Communications-2026-0b5fff)](https://www.nature.com/articles/s41467-026-71315-0)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-SimNMR--PubChem-ffc107?logo=huggingface)](https://huggingface.co/datasets/yqj01/SimNMR-PubChem)
 [![Zenodo](https://img.shields.io/badge/Zenodo-NMR--Solver-28a745?logo=zenodo)](https://doi.org/10.5281/zenodo.16952024)
 [![Bohrium](https://img.shields.io/badge/Bohrium%20App-NMR%20Toolbox-2496ed)](https://www.bohrium.com/apps/nmr-toolbox)
@@ -11,6 +12,22 @@ This project integrates large-scale spectral matching with physics-guided fragme
 
 <img src="assets/framework.png" style="width: 100%;" alt="framework">
 <img src="assets/FB-MO.png" style="width: 100%;" alt="FB-MO">
+
+## Publication & Related Work
+
+NMR-Solver has been formally published in [Nature Communications](https://www.nature.com/articles/s41467-026-71315-0):
+
+- **[2026-04] [NMR-Solver: automated structure elucidation via large-scale spectral matching and physics-guided fragment optimization](https://www.nature.com/articles/s41467-026-71315-0)**  
+  A practical and interpretable framework for automated small-molecule structure elucidation from <sup>1</sup>H and <sup>13</sup>C NMR spectra.
+
+Related team work:
+
+- **[2026-01] NMRNet++. [From Human Labels to Literature: Semi-Supervised Learning of NMR Chemical Shifts at Scale](https://github.com/YongqiJin/NMRNetplusplus)**  
+  A chemical shift prediction model trained with large-scale unassigned NMR data, solvent information, and support for multiple heteroatoms.
+- **[2025-03] NMRNet. [Toward a unified benchmark and framework for deep learning-based prediction of nuclear magnetic resonance chemical shifts](https://www.nature.com/articles/s43588-025-00783-z)**  
+  A unified benchmark and NMRNet framework for deep learning-based chemical shift prediction.
+- **[2025-12] [NMRexp: A database of 3.3 million experimental NMR spectra](https://www.nature.com/articles/s41597-025-06245-5)**  
+  A large-scale literature-derived experimental NMR database covering 3.3 million spectra across multiple nuclei.
 
 ## Online App
 
@@ -92,11 +109,13 @@ sh scripts/eval.sh demo
 Please kindly cite our paper if you use this codebase:
 
 ```bibtex
-@article{jin2025nmr,
+@article{jin2026nmrsolver,
   title={NMR-Solver: Automated Structure Elucidation via Large-Scale Spectral Matching and Physics-Guided Fragment Optimization},
   author={Jin, Yongqi and Wang, Jun-Jie and Xu, Fanjie and Ji, Xiaohong and Gao, Zhifeng and Zhang, Linfeng and Ke, Guolin and Zhu, Rong and E, weinan},
-  journal={arXiv preprint arXiv:2509.00640},
-  year={2025}
+  journal={Nature Communications},
+  year={2026},
+  doi={10.1038/s41467-026-71315-0},
+  url={https://doi.org/10.1038/s41467-026-71315-0}
 }
 ```
 
