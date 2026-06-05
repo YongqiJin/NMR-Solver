@@ -51,6 +51,15 @@ The processed dataset (373 GB) and database index (128 GB) for the SimNMR-PubChe
 
 Pre-trained model weights and evaluation datasets can be downloaded on [Zenodo](https://doi.org/10.5281/zenodo.16952024). Please place them in the [model](model) and [data](data) directories respectively.
 
+### Source Install
+
+```bash
+conda create -n nmr-solver -y python=3.10
+conda activate nmr-solver
+pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+pip install --no-build-isolation -r requirements.txt
+```
+
 ### Docker
 
 You can use our pre-built Docker image for easy setup and deployment:
