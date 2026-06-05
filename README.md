@@ -24,10 +24,10 @@ Related team work:
 
 - **[2026-01] NMRNet++. [From Human Labels to Literature: Semi-Supervised Learning of NMR Chemical Shifts at Scale](https://github.com/YongqiJin/NMRNetplusplus)**  
   A chemical shift prediction model trained with large-scale unassigned NMR data, solvent information, and support for multiple heteroatoms.
-- **[2025-03] NMRNet. [Toward a unified benchmark and framework for deep learning-based prediction of nuclear magnetic resonance chemical shifts](https://www.nature.com/articles/s43588-025-00783-z)**  
-  A unified benchmark and NMRNet framework for deep learning-based chemical shift prediction.
 - **[2025-12] [NMRexp: A database of 3.3 million experimental NMR spectra](https://www.nature.com/articles/s41597-025-06245-5)**  
   A large-scale literature-derived experimental NMR database covering 3.3 million spectra across multiple nuclei.
+- **[2025-03] NMRNet. [Toward a unified benchmark and framework for deep learning-based prediction of nuclear magnetic resonance chemical shifts](https://www.nature.com/articles/s43588-025-00783-z)**  
+  A unified benchmark and NMRNet framework for deep learning-based chemical shift prediction.
 
 ## Online App
 
@@ -51,7 +51,11 @@ The processed dataset (373 GB) and database index (128 GB) for the SimNMR-PubChe
 
 Pre-trained model weights and evaluation datasets can be downloaded on [Zenodo](https://doi.org/10.5281/zenodo.16952024). Please place them in the [model](model) and [data](data) directories respectively.
 
-### Source Install
+### Environment
+
+Two installation options are available: **source install** and **Docker**.
+
+#### 1. Source Install
 
 ```bash
 conda create -n nmr-solver -y python=3.10
@@ -60,9 +64,7 @@ pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 pip install --no-build-isolation -r requirements.txt
 ```
 
-### Docker
-
-You can use our pre-built Docker image for easy setup and deployment:
+#### 2. Docker
 
 ```bash
 # Pull the latest Docker image
