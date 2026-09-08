@@ -22,6 +22,8 @@ NMR-Solver has been formally published in [Nature Communications](https://www.na
 
 Related team work:
 
+- **[2026-03] SpecXMaster. [SpecXMaster Technical Report](https://arxiv.org/pdf/2603.23101)**  
+  An agentic reinforcement learning framework for automated NMR spectrum analysis and molecular structure elucidation.
 - **[2026-01] NMRNet++. [From Human Labels to Literature: Semi-Supervised Learning of NMR Chemical Shifts at Scale](https://github.com/YongqiJin/NMRNetplusplus)**  
   A chemical shift prediction model trained with large-scale unassigned NMR data, solvent information, and support for multiple heteroatoms.
 - **[2025-12] [NMRexp: A database of 3.3 million experimental NMR spectra](https://www.nature.com/articles/s41597-025-06245-5)**  
